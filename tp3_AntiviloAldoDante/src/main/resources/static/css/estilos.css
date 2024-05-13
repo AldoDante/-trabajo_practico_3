@@ -4,6 +4,14 @@
 #encabezado {
   background-color: #333;
   color: #fff;
+  text-align: left;
+  padding: 20px;
+}
+
+
+#footer{
+  background-color: #333;
+  color: #fff;
   text-align: center;
   padding: 20px;
 }
