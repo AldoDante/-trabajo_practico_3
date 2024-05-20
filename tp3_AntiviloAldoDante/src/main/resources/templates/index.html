@@ -6,18 +6,37 @@
 		<link rel="stylesheet" href="../static/css/estilos.css"> 
 	</head>
 	<body>
-		<header id="encabezado">
-			<h1>Bienvenido a Programacion Visual</h1>		
+		<header>
+			<nav class="nav">		
+			<ul class="horizontalNav">				
+			    <li><a href="#">Inicio</a></li>
+				<li><a href="#">Institucional</a>
+					<ul class="verticalNav">
+						<li><a href="#">Historia</a></li>
+				    	<li><a href="#">Autoridades</a></li>
+				    	<li><a href="#">Resoluciones</a></li>
+					</ul>    
+				</li>
+				<li><a href="#">Secretarias</a>		
+					<ul class="verticalNav">
+						<li><a href="#">Sec. Academica</a></li>
+				    	<li><a href="#">Sec. Tecnica</a></li>
+				    	<li><a href="#">Sec. Adm.</a></li>
+					</ul>    
+				</li>
+				<li>
+					<a href="#">Publicaciones</a>
+					<ul class="verticalNav">
+						<li><a href="#">Gacetilla</a></li>
+				    	<li><a href="#">Revista</a></li>
+				    	<li><a href="#">Institucionales</a></li>
+					</ul>    
+				</li>
+				    
+			</ul>
+		</nav>	
 		</header>
-		<!-- Comentarios -->
-		<nav>
-			<ul>
-				<li><a href="http://www.fi.unju.edu.ar">Fi Unju</a></li>
-				<li><a href="#sobre-nosotros"></a>Sobre nosotros</li>
-				<li><a href="#Contacto"></a>Contacto</li>
-			</ul>		
-		</nav>
-		<main>
+		<main class="main">
 			<section id="inicio">
 			<h2>Programacion Visual</h2>
 			<table>
@@ -50,10 +69,35 @@
 			<a></a>
 			<img alt="FI" src="../static/images/LogoFacultad.jpg" width="300" height="200">
 		</aside>
-		<footer>			
-			<a>Direccion</a>
-			<a href="http://www.fi.unju.edu.ar">facebook page</a>
-			<a>Telefono de contacto</a>
+		<footer id="footer">			
+			<div class="contenedor">    
+			    <div >
+				    <h3>FACULTAD DE INGENIERÍA - UNJu</h3>
+				    <ul class="lista" >
+				      <li><a href="#">Ítalo Palanca Nº 10</a></li>
+				      <li><a href="#">San Salvador de Jujuy Jujuy - Argentina</a></li>
+				      <li><a href="#">info@fi.unju.edu.ar</a></li>
+				    </ul>
+			    </div>
+			    <div>
+			    	<h3>Redes Sociales</h3>
+			    	<ul class="lista">
+				      <li><a href="#">Facebook</a></li>
+				      <li><a href="#">Youtube</a></li>
+				      <li><a href="#">Linkedin</a></li>
+				      <li><a href="#">Instagram</a></li>
+				    </ul>
+			    </div>
+			    <div>
+			    	<h3>Enlaces de Interés</h3>
+			    <ul class="lista">
+				      <li><a href="#">Teléfonos</a></li>
+				      <li><a href="#">Modelos de Notas</a></li>
+				      <li><a href="#">SIU Guaraní</a></li>
+				      <li><a href="#">Campus FI</a></li>
+				    </ul>
+			    </div>
+			</div>	
 		</footer>
 	</body>
 </html>
