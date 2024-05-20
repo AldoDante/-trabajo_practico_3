@@ -3,23 +3,43 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Programacion Visual F.I.</title>
+		<link rel="stylesheet" href="../static/css/estilos.css"> 
 	</head>
 	<body>
 		<header>
-			<h1>Bienvenido a Programacion Visual</h1>		
+			<nav class="nav">		
+			<ul class="horizontalNav">				
+			    <li><a href="#">Inicio</a></li>
+				<li><a href="#">Institucional</a>
+					<ul class="verticalNav">
+						<li><a href="#">Historia</a></li>
+				    	<li><a href="#">Autoridades</a></li>
+				    	<li><a href="#">Resoluciones</a></li>
+					</ul>    
+				</li>
+				<li><a href="#">Secretarias</a>		
+					<ul class="verticalNav">
+						<li><a href="#">Sec. Academica</a></li>
+				    	<li><a href="#">Sec. Tecnica</a></li>
+				    	<li><a href="#">Sec. Adm.</a></li>
+					</ul>    
+				</li>
+				<li>
+					<a href="#">Publicaciones</a>
+					<ul class="verticalNav">
+						<li><a href="#">Gacetilla</a></li>
+				    	<li><a href="#">Revista</a></li>
+				    	<li><a href="#">Institucionales</a></li>
+					</ul>    
+				</li>
+				    
+			</ul>
+		</nav>	
 		</header>
-		<!-- Comentarios -->
-		<nav>
-			<ul>
-				<li><a href="http://www.fi.unju.edu.ar">Fi Unju</a></li>
-				<li><a href="#sobre-nosotros"></a>Sobre nosotros</li>
-				<li><a href="#Contacto"></a>Contacto</li>
-			</ul>		
-		</nav>
-		<main>
+		<main class="main">
 			<section id="inicio">
-			<h2>Programacion Visual</h2>
-			<table border="1">
+			<h1 class="h1">Programacion Visual</h1>
+			<table class="table">
 				  <tr>
 				    <th>Responsable de Cursada</th>
 				    <td>Mg. Ing. Ariel Alejandro Vega</td>
@@ -37,22 +57,47 @@
 				    <td>Juan Rodriguez</td>
 				  </tr>
 			</table>
-			<h3>UNIDAD I: Lenguaje Java </h3>
-			<p>Tipos de datos primitivos y complejos. Estructuras de datos. Operadores. Uso de Strings, Arreglos y Colecciones. Conceptos generales de la Programación Orientada a Objetos. Clases y objetos: Definición y Ejemplos. </p>
-			<h3>UNIDAD II: Introducción a Spring Boot </h3>
-			<p>Arquitectura de aplicaciones Web. Herramientas necesarias. ¿Qué es un Framework? Evolución de Spring. Módulos disponibles. Arquitectura de una aplicación con Spring. Creación de proyectos con Spring Boot en un IDE. Concepto de Controladores. Gestión de peticiones con RequestMapping. Introducción a HTML. Estructura de un documento HTML. Introducción a CCS. Creación de un sitio Web HTML. </p>
+			<h2 class="h2">UNIDAD I: Lenguaje Java </h2>
+			<p class="p">Tipos de datos primitivos y complejos. Estructuras de datos. Operadores. Uso de Strings, Arreglos y Colecciones. Conceptos generales de la Programación Orientada a Objetos. Clases y objetos: Definición y Ejemplos. </p>
+			<h2 class="h2">UNIDAD II: Introducción a Spring Boot </h2>
+			<p class="p">Arquitectura de aplicaciones Web. Herramientas necesarias. ¿Qué es un Framework? Evolución de Spring. Módulos disponibles. Arquitectura de una aplicación con Spring. Creación de proyectos con Spring Boot en un IDE. Concepto de Controladores. Gestión de peticiones con RequestMapping. Introducción a HTML. Estructura de un documento HTML. Introducción a CCS. Creación de un sitio Web HTML. </p>
 			</section>
 		</main>
 		<aside>
-			<h1>Logo Facultad de Ingenieria</h1>
+			<h3 class="h3">Logo Facultad de Ingenieria</h3>
 			<p></p>
 			<a></a>
-			<img alt="FI" src="../static/images/LogoFacultad.jpg" width="300" height="200">
+			<img class="img" alt="FI" src="../static/images/LogoFacultad.jpg">
 		</aside>
-		<footer>			
-			<a>Direccion</a>
-			<a href="http://www.fi.unju.edu.ar">facebook page</a>
-			<a>Telefono de contacto</a>
+		<footer id="footer">			
+			<div class="contenedor">    
+			    <div >
+				    <h3>FACULTAD DE INGENIERÍA - UNJu</h3>
+				    <ul class="lista" >
+				      <li><a href="#">Ítalo Palanca Nº 10</a></li>
+				      <li><a href="#">San Salvador de Jujuy Jujuy - Argentina</a></li>
+				      <li><a href="#">info@fi.unju.edu.ar</a></li>
+				    </ul>
+			    </div>
+			    <div>
+			    	<h3>Redes Sociales</h3>
+			    	<ul class="lista">
+				      <li><a href="#">Facebook</a></li>
+				      <li><a href="#">Youtube</a></li>
+				      <li><a href="#">Linkedin</a></li>
+				      <li><a href="#">Instagram</a></li>
+				    </ul>
+			    </div>
+			    <div>
+			    	<h3>Enlaces de Interés</h3>
+			    <ul class="lista">
+				      <li><a href="#">Teléfonos</a></li>
+				      <li><a href="#">Modelos de Notas</a></li>
+				      <li><a href="#">SIU Guaraní</a></li>
+				      <li><a href="#">Campus FI</a></li>
+				    </ul>
+			    </div>
+			</div>	
 		</footer>
 	</body>
 </html>
